@@ -6,7 +6,7 @@ function runWorker() {
     let code = codeInput !== null ? codeInput.value : '';
 
     if (typeof(w) == 'undefined') {
-        var w = new Worker('skulpt.worker.js')
+        var w = new Worker('scripts/skulpt.worker.js')
     }
 
     w.onmessage = function(event) {
