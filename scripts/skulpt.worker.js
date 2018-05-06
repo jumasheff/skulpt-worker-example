@@ -1,7 +1,7 @@
 if ('function' === typeof importScripts) {
 
-    self.importScripts('skulpt.min.js')
-    self.importScripts('skulpt-stdlib.js')
+    self.importScripts('lib/skulpt.min.js')
+    self.importScripts('lib/skulpt-stdlib.js')
 
     let readModule = module => (
         self.Sk.builtinFiles["files"][module]
